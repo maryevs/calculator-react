@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&subset=cyrillic');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin-top: 30px;
+}
+
+
+/*calc body*/
+#calcBody {
+    padding: 10px;
+    width: 230px;
+    background-color: lightblue;
+    border-radius: .25rem;
+}
+
+.display {
+
+    width: 100%;
+    height: 25px;
+    background-color: #e9eeee;
+    border: none;
+}
+
+
+#history {
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#result {
+    margin-bottom: 5px;
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.row1 {
+    display: flex;
+}
+
+button {
+    margin: 2px;
+    padding: 0 20px;
+}
